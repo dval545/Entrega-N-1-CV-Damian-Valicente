@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto CV - Damian Valicente</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="cv-estilos.css" />
+</head>
+<body>
+  <div class="contenedor">
+    <div class="columna_izquierda">
+      <div class="nombre_oficio">
+        <div class="foto">
+          <img src="foto-persona.jpeg" width="200px" alt="foto de una persona">
+        </div>
+        <h2>Julio Perez<br><span>Programador Web</span></h2>
+      </div>
+
+      <div class="contacto">
+        <h3 class="titulo">Contacto</h3>
+        <ul>
+          <li>
+            <span class="icono"><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <span class="texto">01 2345 6789</span>
+          </li>
+          <li>
+            <span class="icono"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <span class="texto" id="mail"><a style="color:#03a9f4;" href="mailto:dvalicente@hotmail.com">j.perez@mail.com</a></span>
+          </li>
+          <li>
+            <span class="icono"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+            <span class="texto">8405 Calle Spring</span>
+          </li>
+          <li>
+            <span class="icono"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+            <span class="texto">Fecha de nacimiento: 02/08/1990</span>
+          </li>
+          <li>
+            <span class="icono"><i class="fa fa-globe" aria-hidden="true"></i></span>
+            <span class="texto">Nacionalidad: Español</span>
+          </li>
+        </ul>  
+      </div>
+
+      <div>
+        <button class="boton_imprimir" id="boton_imprimir">Imprimir</button>
+      </div>
+
+    </div>
+
+    <div class="right_side">
+      <div class="perfil">
+        <h2 class="titulo_perfil">Perfil</h2>
+        <p> Programador con más de cinco años de experiencia generando código para empresas del sector bancario. Creé el nuevo portal web de Santander, el cual recibe más de 1 millón de visitas al día. Los errores reportados en los micrositios del banco se redujeron en un 20% y la retención de usuarios incrementó en un 10%.
+        <br>
+        Especialista en solución de problemas y trabajo en equipo.</p>
+      </div>
+
+      <div class="perfil">
+       <h2 class="titulo_perfil">Aptitudes</h2>
+       <ul>
+         <li>
+           <span class="texto">Dominio de PHP, MySQL, HTML5, CSS3 y Javascript</span>
+         </li>
+         <li>
+           <span class="texto">Conocimiento de las bases de datos MySQL y PostgreSQL</span>
+         </li>
+         <li>
+           <span class="texto">Capacidad de liderazgo y trabajo en equipo</span>
+         </li>
+         <li>
+           <span class="texto">Ingles avanzado</span>
+         </li>
+       </ul>
+      </div>
+
+      <div class="perfil">
+        <h2 class="titulo_perfil">Experiencia</h2>
+        <h3 class="subtitulo_perfil">Programador Web - Banco Santander</h3>
+        <h4 class="periodo">2017 - 2019</h4>
+        <button class="boton_perfil" id="boton_exp">Ver información</button>
+        <ul class="lista_exp" id="lista_exp">
+         <li>
+           <span class="texto"> Escribí el código una página web con la capacidad de recibir a más de un millón de usuarios diariamente.</span>
+         </li>
+         <li>
+           <span class="texto">Responsable de crear un comprador de tarjetas de crédito que elevó las ventas de producto en un 15%.</span>
+         </li>
+         <li>
+           <span class="texto">Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de 4.8 estrellas.</span>
+         </li>
+        </ul>
+
+        <h3 class="subtitulo_perfil">Desarrollador Web - Flame Analytics</h3>
+        <h4 class="periodo">2015 - 2017</h4>
+        <button class="boton_perfil" id="boton_exp2">Ver información</button>
+        <ul class="lista_exp" id="lista_exp_2">
+         <li>
+           <span class="texto">A lo largo de mi estancia, participé en más de 15 proyectos digitales y colaboré con un equipo de diseñadores, copywriters creativos, project managers y QA testers.</span>
+         </li>
+         <li>
+           <span class="texto">Responsable de crear un comprador de tarjetas de crédito que elevó las ventas de producto en un 15%.</span>
+         </li>
+         <li>
+           <span class="texto">Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de 4.8 estrellas.</span>
+         </li>
+        </ul>
+      </div>
+
+      <div class="perfil">
+       <h2 class="titulo_perfil">Educación</h2>
+       <h3 class="subtitulo_perfil">Ingeniería en Sistemas</h3>
+       <h4 class="periodo">Universidad Complutense de Madrid, 2012 - 2015</h4>
+       <ul>
+         <li>
+           <span class="texto">Graduado con la nota más alta de la generación.</span>
+         </li>
+         <li>
+           <span class="texto">3er lugar en el Hackaton CodeFest 2014.</span>
+         </li>
+         <li>
+           <span class="texto">reador del blog www.codigoinfinito.com, especializado en consejos de programación y seguridad web.</span>
+         </li>
+         <li>
+           <span class="texto">Ganador de la beca de Excelencia Académica 2012.</span>
+         </li>
+       </ul>
+      </div>
+
+      <div>
+        <a href="https://github.com/" target="_blank">Github - Proyectos de programación</a>
+
+      </div>  
+
+    </div>
+  </div>
+
+<script src="function.js"></script>
+
+
+</body
